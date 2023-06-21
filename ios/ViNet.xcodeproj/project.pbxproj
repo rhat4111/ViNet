@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* ViNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ViNetTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		7F8F92E80E4A4EA982713505 /* Mulish-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77B58166FE4B4F2C996BDDC1 /* Mulish-Black.ttf */; };
+		B5D753ECAA334497A53E106F /* Mulish-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B42CF24F3F74949BE2B905A /* Mulish-BlackItalic.ttf */; };
+		B5AA86A6AA0B4EA5B27AF7D0 /* Mulish-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E80FB9CDB4B34DBA87B7E0E9 /* Mulish-Bold.ttf */; };
+		A81735BCE9434C3190828021 /* Mulish-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 301444DF12A8497886CEEA0F /* Mulish-BoldItalic.ttf */; };
+		60A676CB75744824958231E5 /* Mulish-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 221A7C1486C241F19C6B9B05 /* Mulish-ExtraBold.ttf */; };
+		CF84FC9014924A9EAE3CAF0E /* Mulish-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CF8E2371C4B4B819A9B150B /* Mulish-ExtraBoldItalic.ttf */; };
+		98646CECD2E54524AC14E994 /* Mulish-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A542E840E58401681E8BB86 /* Mulish-ExtraLight.ttf */; };
+		C68CBF3966D8471DB8D69375 /* Mulish-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D8DDB137F1341209705178C /* Mulish-ExtraLightItalic.ttf */; };
+		BFBE8765C3BE460EBEEA9EEF /* Mulish-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAD47D404E884784B0515D83 /* Mulish-Italic.ttf */; };
+		79A76ACA412E4A37BBF22647 /* Mulish-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA1EAFE544F9A99004B53 /* Mulish-Light.ttf */; };
+		78370EF8BC374E11B2BEF568 /* Mulish-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6DB27B5794A97B4CB627D /* Mulish-LightItalic.ttf */; };
+		5CD106C36B3B45379C423BCA /* Mulish-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 143237B9EAFD47F9851B2095 /* Mulish-Medium.ttf */; };
+		1CF5EB94B94C45B1864C3101 /* Mulish-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0C32BF3905C45C19C5B444D /* Mulish-MediumItalic.ttf */; };
+		13C05B5028E24671BFEAFEE9 /* Mulish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00FAC8A25A664F088B05ED26 /* Mulish-Regular.ttf */; };
+		F57E4EB6E1E2463EA97B04B2 /* Mulish-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAF4E477838043448868D377 /* Mulish-SemiBold.ttf */; };
+		155B02663C7C4A3AA5E4C8F4 /* Mulish-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02706295480B4AB5B9A73BE4 /* Mulish-SemiBoldItalic.ttf */; };
+		C9C421CD918D4BA7A97CB671 /* NotoSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39F4C4039A1647E185F0387D /* NotoSerif-Bold.ttf */; };
+		05045C2EB2624884BE1E1A4E /* NotoSerif-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CBAC2BC100E4AC4941EAE0D /* NotoSerif-BoldItalic.ttf */; };
+		F48963F761B54543ABFC5768 /* NotoSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B69CE0AF9392476ABB9D633D /* NotoSerif-Italic.ttf */; };
+		6B6C67D902F84142B00299CF /* NotoSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51097E4B124E4B4FBB8EEFC2 /* NotoSerif-Regular.ttf */; };
+		C340015102434ADA81FA7F94 /* NotoSerif-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8E7BB46C33A495CB6882843 /* NotoSerif-Black.ttf */; };
+		484721354A054A3EB80528CA /* NotoSerif-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AFE9BFCA63B480F833F1B29 /* NotoSerif-BlackItalic.ttf */; };
+		C8DADA84DF0D4BAE87DFABE5 /* NotoSerif-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52FDEEA603E44F28A58B219E /* NotoSerif-ExtraBold.ttf */; };
+		85DE78D934004C42A5695905 /* NotoSerif-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 885300866E5C49D7A5046C9D /* NotoSerif-ExtraBoldItalic.ttf */; };
+		BA1B66F1668D470B9169A519 /* NotoSerif-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 899D7A7737B94285AB22451D /* NotoSerif-ExtraLight.ttf */; };
+		12E9FBA2E0594C10A017053E /* NotoSerif-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4578F0E130204F3EB563901C /* NotoSerif-ExtraLightItalic.ttf */; };
+		239CC19E733742C6882D5897 /* NotoSerif-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 604486A4BA1C4B73804E15FB /* NotoSerif-Light.ttf */; };
+		6C7600D2A9844185AB38DF5D /* NotoSerif-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C1D276018C44EABBFA22EEA /* NotoSerif-LightItalic.ttf */; };
+		D9722D6CEB8C427ABB738E0E /* NotoSerif-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5289D703FD7C435A8EEB653B /* NotoSerif-Medium.ttf */; };
+		EDEEC0A5C3154090BEDFE222 /* NotoSerif-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0B6789D8E444D75BEE3929B /* NotoSerif-MediumItalic.ttf */; };
+		F5024FEBDA2B49A8BCEC01A3 /* NotoSerif-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1BA9079C0FC42499E464C50 /* NotoSerif-SemiBold.ttf */; };
+		D131E4F32CEF46EFAB76B5A5 /* NotoSerif-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0CE902276A147C4ABC6CA43 /* NotoSerif-SemiBoldItalic.ttf */; };
+		DC258CEE4FA24C4986311422 /* NotoSerif-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFCB9C25C4C547B79C264110 /* NotoSerif-Thin.ttf */; };
+		41D526FB6DE7450990A1C7FF /* NotoSerif-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8A3E615BE4D84A6C31C4A /* NotoSerif-ThinItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = ViNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* ViNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ViNetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViNetTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ViNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ViNet/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ViNet/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ViNet/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ViNet/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ViNet/main.m; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ViNet/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		77B58166FE4B4F2C996BDDC1 /* Mulish-Black.ttf */ = {isa = PBXFileReference; name = "Mulish-Black.ttf"; path = "../src/assets/fonts/Mulish-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7B42CF24F3F74949BE2B905A /* Mulish-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Mulish-BlackItalic.ttf"; path = "../src/assets/fonts/Mulish-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E80FB9CDB4B34DBA87B7E0E9 /* Mulish-Bold.ttf */ = {isa = PBXFileReference; name = "Mulish-Bold.ttf"; path = "../src/assets/fonts/Mulish-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		301444DF12A8497886CEEA0F /* Mulish-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Mulish-BoldItalic.ttf"; path = "../src/assets/fonts/Mulish-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		221A7C1486C241F19C6B9B05 /* Mulish-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Mulish-ExtraBold.ttf"; path = "../src/assets/fonts/Mulish-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3CF8E2371C4B4B819A9B150B /* Mulish-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Mulish-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Mulish-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8A542E840E58401681E8BB86 /* Mulish-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Mulish-ExtraLight.ttf"; path = "../src/assets/fonts/Mulish-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D8DDB137F1341209705178C /* Mulish-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Mulish-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Mulish-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DAD47D404E884784B0515D83 /* Mulish-Italic.ttf */ = {isa = PBXFileReference; name = "Mulish-Italic.ttf"; path = "../src/assets/fonts/Mulish-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C6DBA1EAFE544F9A99004B53 /* Mulish-Light.ttf */ = {isa = PBXFileReference; name = "Mulish-Light.ttf"; path = "../src/assets/fonts/Mulish-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8FF6DB27B5794A97B4CB627D /* Mulish-LightItalic.ttf */ = {isa = PBXFileReference; name = "Mulish-LightItalic.ttf"; path = "../src/assets/fonts/Mulish-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		143237B9EAFD47F9851B2095 /* Mulish-Medium.ttf */ = {isa = PBXFileReference; name = "Mulish-Medium.ttf"; path = "../src/assets/fonts/Mulish-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A0C32BF3905C45C19C5B444D /* Mulish-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Mulish-MediumItalic.ttf"; path = "../src/assets/fonts/Mulish-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		00FAC8A25A664F088B05ED26 /* Mulish-Regular.ttf */ = {isa = PBXFileReference; name = "Mulish-Regular.ttf"; path = "../src/assets/fonts/Mulish-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BAF4E477838043448868D377 /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; name = "Mulish-SemiBold.ttf"; path = "../src/assets/fonts/Mulish-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		02706295480B4AB5B9A73BE4 /* Mulish-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Mulish-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Mulish-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		39F4C4039A1647E185F0387D /* NotoSerif-Bold.ttf */ = {isa = PBXFileReference; name = "NotoSerif-Bold.ttf"; path = "../src/assets/fonts/NotoSerif-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4CBAC2BC100E4AC4941EAE0D /* NotoSerif-BoldItalic.ttf */ = {isa = PBXFileReference; name = "NotoSerif-BoldItalic.ttf"; path = "../src/assets/fonts/NotoSerif-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B69CE0AF9392476ABB9D633D /* NotoSerif-Italic.ttf */ = {isa = PBXFileReference; name = "NotoSerif-Italic.ttf"; path = "../src/assets/fonts/NotoSerif-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		51097E4B124E4B4FBB8EEFC2 /* NotoSerif-Regular.ttf */ = {isa = PBXFileReference; name = "NotoSerif-Regular.ttf"; path = "../src/assets/fonts/NotoSerif-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E8E7BB46C33A495CB6882843 /* NotoSerif-Black.ttf */ = {isa = PBXFileReference; name = "NotoSerif-Black.ttf"; path = "../src/assets/fonts/NotoSerif-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1AFE9BFCA63B480F833F1B29 /* NotoSerif-BlackItalic.ttf */ = {isa = PBXFileReference; name = "NotoSerif-BlackItalic.ttf"; path = "../src/assets/fonts/NotoSerif-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		52FDEEA603E44F28A58B219E /* NotoSerif-ExtraBold.ttf */ = {isa = PBXFileReference; name = "NotoSerif-ExtraBold.ttf"; path = "../src/assets/fonts/NotoSerif-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		885300866E5C49D7A5046C9D /* NotoSerif-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "NotoSerif-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/NotoSerif-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		899D7A7737B94285AB22451D /* NotoSerif-ExtraLight.ttf */ = {isa = PBXFileReference; name = "NotoSerif-ExtraLight.ttf"; path = "../src/assets/fonts/NotoSerif-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4578F0E130204F3EB563901C /* NotoSerif-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "NotoSerif-ExtraLightItalic.ttf"; path = "../src/assets/fonts/NotoSerif-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		604486A4BA1C4B73804E15FB /* NotoSerif-Light.ttf */ = {isa = PBXFileReference; name = "NotoSerif-Light.ttf"; path = "../src/assets/fonts/NotoSerif-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C1D276018C44EABBFA22EEA /* NotoSerif-LightItalic.ttf */ = {isa = PBXFileReference; name = "NotoSerif-LightItalic.ttf"; path = "../src/assets/fonts/NotoSerif-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5289D703FD7C435A8EEB653B /* NotoSerif-Medium.ttf */ = {isa = PBXFileReference; name = "NotoSerif-Medium.ttf"; path = "../src/assets/fonts/NotoSerif-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C0B6789D8E444D75BEE3929B /* NotoSerif-MediumItalic.ttf */ = {isa = PBXFileReference; name = "NotoSerif-MediumItalic.ttf"; path = "../src/assets/fonts/NotoSerif-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C1BA9079C0FC42499E464C50 /* NotoSerif-SemiBold.ttf */ = {isa = PBXFileReference; name = "NotoSerif-SemiBold.ttf"; path = "../src/assets/fonts/NotoSerif-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E0CE902276A147C4ABC6CA43 /* NotoSerif-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "NotoSerif-SemiBoldItalic.ttf"; path = "../src/assets/fonts/NotoSerif-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BFCB9C25C4C547B79C264110 /* NotoSerif-Thin.ttf */ = {isa = PBXFileReference; name = "NotoSerif-Thin.ttf"; path = "../src/assets/fonts/NotoSerif-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5AE8A3E615BE4D84A6C31C4A /* NotoSerif-ThinItalic.ttf */ = {isa = PBXFileReference; name = "NotoSerif-ThinItalic.ttf"; path = "../src/assets/fonts/NotoSerif-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* ViNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* ViNetTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = ViNetTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* ViNet */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = ViNet;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* ViNet */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* ViNetTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				11248621F5B34769A0BA89CE /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* ViNet.app */,
+				00E356EE1AD99517003FC87E /* ViNetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11248621F5B34769A0BA89CE /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				77B58166FE4B4F2C996BDDC1 /* Mulish-Black.ttf */,
+				7B42CF24F3F74949BE2B905A /* Mulish-BlackItalic.ttf */,
+				E80FB9CDB4B34DBA87B7E0E9 /* Mulish-Bold.ttf */,
+				301444DF12A8497886CEEA0F /* Mulish-BoldItalic.ttf */,
+				221A7C1486C241F19C6B9B05 /* Mulish-ExtraBold.ttf */,
+				3CF8E2371C4B4B819A9B150B /* Mulish-ExtraBoldItalic.ttf */,
+				8A542E840E58401681E8BB86 /* Mulish-ExtraLight.ttf */,
+				9D8DDB137F1341209705178C /* Mulish-ExtraLightItalic.ttf */,
+				DAD47D404E884784B0515D83 /* Mulish-Italic.ttf */,
+				C6DBA1EAFE544F9A99004B53 /* Mulish-Light.ttf */,
+				8FF6DB27B5794A97B4CB627D /* Mulish-LightItalic.ttf */,
+				143237B9EAFD47F9851B2095 /* Mulish-Medium.ttf */,
+				A0C32BF3905C45C19C5B444D /* Mulish-MediumItalic.ttf */,
+				00FAC8A25A664F088B05ED26 /* Mulish-Regular.ttf */,
+				BAF4E477838043448868D377 /* Mulish-SemiBold.ttf */,
+				02706295480B4AB5B9A73BE4 /* Mulish-SemiBoldItalic.ttf */,
+				39F4C4039A1647E185F0387D /* NotoSerif-Bold.ttf */,
+				4CBAC2BC100E4AC4941EAE0D /* NotoSerif-BoldItalic.ttf */,
+				B69CE0AF9392476ABB9D633D /* NotoSerif-Italic.ttf */,
+				51097E4B124E4B4FBB8EEFC2 /* NotoSerif-Regular.ttf */,
+				E8E7BB46C33A495CB6882843 /* NotoSerif-Black.ttf */,
+				1AFE9BFCA63B480F833F1B29 /* NotoSerif-BlackItalic.ttf */,
+				52FDEEA603E44F28A58B219E /* NotoSerif-ExtraBold.ttf */,
+				885300866E5C49D7A5046C9D /* NotoSerif-ExtraBoldItalic.ttf */,
+				899D7A7737B94285AB22451D /* NotoSerif-ExtraLight.ttf */,
+				4578F0E130204F3EB563901C /* NotoSerif-ExtraLightItalic.ttf */,
+				604486A4BA1C4B73804E15FB /* NotoSerif-Light.ttf */,
+				1C1D276018C44EABBFA22EEA /* NotoSerif-LightItalic.ttf */,
+				5289D703FD7C435A8EEB653B /* NotoSerif-Medium.ttf */,
+				C0B6789D8E444D75BEE3929B /* NotoSerif-MediumItalic.ttf */,
+				C1BA9079C0FC42499E464C50 /* NotoSerif-SemiBold.ttf */,
+				E0CE902276A147C4ABC6CA43 /* NotoSerif-SemiBoldItalic.ttf */,
+				BFCB9C25C4C547B79C264110 /* NotoSerif-Thin.ttf */,
+				5AE8A3E615BE4D84A6C31C4A /* NotoSerif-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* ViNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ViNetTests" */;
+			buildPhases = (
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = ViNetTests;
+			productName = ViNetTests;
+			productReference = 00E356EE1AD99517003FC87E /* ViNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* ViNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ViNet" */;
+			buildPhases = (
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViNet;
+			productName = ViNet;
+			productReference = 13B07F961A680F5B00A75B9A /* ViNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ViNet" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* ViNet */,
+				00E356ED1AD99517003FC87E /* ViNetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				7F8F92E80E4A4EA982713505 /* Mulish-Black.ttf in Resources */,
+				B5D753ECAA334497A53E106F /* Mulish-BlackItalic.ttf in Resources */,
+				B5AA86A6AA0B4EA5B27AF7D0 /* Mulish-Bold.ttf in Resources */,
+				A81735BCE9434C3190828021 /* Mulish-BoldItalic.ttf in Resources */,
+				60A676CB75744824958231E5 /* Mulish-ExtraBold.ttf in Resources */,
+				CF84FC9014924A9EAE3CAF0E /* Mulish-ExtraBoldItalic.ttf in Resources */,
+				98646CECD2E54524AC14E994 /* Mulish-ExtraLight.ttf in Resources */,
+				C68CBF3966D8471DB8D69375 /* Mulish-ExtraLightItalic.ttf in Resources */,
+				BFBE8765C3BE460EBEEA9EEF /* Mulish-Italic.ttf in Resources */,
+				79A76ACA412E4A37BBF22647 /* Mulish-Light.ttf in Resources */,
+				78370EF8BC374E11B2BEF568 /* Mulish-LightItalic.ttf in Resources */,
+				5CD106C36B3B45379C423BCA /* Mulish-Medium.ttf in Resources */,
+				1CF5EB94B94C45B1864C3101 /* Mulish-MediumItalic.ttf in Resources */,
+				13C05B5028E24671BFEAFEE9 /* Mulish-Regular.ttf in Resources */,
+				F57E4EB6E1E2463EA97B04B2 /* Mulish-SemiBold.ttf in Resources */,
+				155B02663C7C4A3AA5E4C8F4 /* Mulish-SemiBoldItalic.ttf in Resources */,
+				C9C421CD918D4BA7A97CB671 /* NotoSerif-Bold.ttf in Resources */,
+				05045C2EB2624884BE1E1A4E /* NotoSerif-BoldItalic.ttf in Resources */,
+				F48963F761B54543ABFC5768 /* NotoSerif-Italic.ttf in Resources */,
+				6B6C67D902F84142B00299CF /* NotoSerif-Regular.ttf in Resources */,
+				C340015102434ADA81FA7F94 /* NotoSerif-Black.ttf in Resources */,
+				484721354A054A3EB80528CA /* NotoSerif-BlackItalic.ttf in Resources */,
+				C8DADA84DF0D4BAE87DFABE5 /* NotoSerif-ExtraBold.ttf in Resources */,
+				85DE78D934004C42A5695905 /* NotoSerif-ExtraBoldItalic.ttf in Resources */,
+				BA1B66F1668D470B9169A519 /* NotoSerif-ExtraLight.ttf in Resources */,
+				12E9FBA2E0594C10A017053E /* NotoSerif-ExtraLightItalic.ttf in Resources */,
+				239CC19E733742C6882D5897 /* NotoSerif-Light.ttf in Resources */,
+				6C7600D2A9844185AB38DF5D /* NotoSerif-LightItalic.ttf in Resources */,
+				D9722D6CEB8C427ABB738E0E /* NotoSerif-Medium.ttf in Resources */,
+				EDEEC0A5C3154090BEDFE222 /* NotoSerif-MediumItalic.ttf in Resources */,
+				F5024FEBDA2B49A8BCEC01A3 /* NotoSerif-SemiBold.ttf in Resources */,
+				D131E4F32CEF46EFAB76B5A5 /* NotoSerif-SemiBoldItalic.ttf in Resources */,
+				DC258CEE4FA24C4986311422 /* NotoSerif-Thin.ttf in Resources */,
+				41D526FB6DE7450990A1C7FF /* NotoSerif-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* ViNetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* ViNet */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ViNetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViNet.app/ViNet";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = ViNetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViNet.app/ViNet";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ViNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ViNet;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = ViNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ViNet;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ViNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ViNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ViNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
